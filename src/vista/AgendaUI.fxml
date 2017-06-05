@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="342.0" prefWidth="374.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.PersonaController">
+   <children>
+      <TableView fx:id="Tabla" layoutX="52.0" layoutY="42.0" prefHeight="235.0" prefWidth="270.0">
+        <columns>
+          <TableColumn fx:id="ColName" prefWidth="94.0" text="Nombre" />
+          <TableColumn fx:id="ColApellido" prefWidth="85.0" text="Apellido" />
+            <TableColumn fx:id="ColTelefono" prefWidth="90.0" text="Teléfono" />
+        </columns>
+      </TableView>
+      <Button fx:id="Nuevo" layoutX="95.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleNewPerson" text="Nuevo" />
+      <Button fx:id="Editar" layoutX="162.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleEditPerson" text="Editar" />
+      <Button fx:id="Borrar" layoutX="227.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleDeletePerson" text="Borrar" />
+   </children>
+</AnchorPane>

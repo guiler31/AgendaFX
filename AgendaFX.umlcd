@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_cGaBEEXmEee3a7VBoiXGOA">
+  <modelElement href="AgendaFX.uml#_cDIDkEXmEee3a7VBoiXGOA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gR5KEEXmEee3a7VBoiXGOA" source="_gR5KGUXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9I0wEXmEee3a7VBoiXGOA"/>
+    <stereotypes xmi:id="_gR5KEUXmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9I0wkXmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gR5KEkXmEee3a7VBoiXGOA" text=""/>
+    <sourceRole xmi:id="_gR5KE0XmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9I0wUXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gR5KFEXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gR5KFUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gR5KFkXmEee3a7VBoiXGOA" aggregationKind="NONE" name="personData" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8Pc4UXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gR5KF0XmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gR5KGEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gTu9IEXmEee3a7VBoiXGOA" sourceAnchor="172.0,0.0" targetAnchor="385.0,72.0" target="_gR5KGUXmEee3a7VBoiXGOA" source="_gULpIkXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9I0yUXmEee3a7VBoiXGOA"/>
+    <bendpoints xmi:id="_XAkBQEXpEee3a7VBoiXGOA" sourceY="-246" targetX="393"/>
+    <stereotypes xmi:id="_gT4HE0XmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9SlwEXmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gT4HEEXmEee3a7VBoiXGOA" text="">
+      <visualProperties xmi:id="_gnsa8UXmEee3a7VBoiXGOA" position="-198.63636363636363,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gT4HEUXmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9I0ykXmEee3a7VBoiXGOA"/>
+      <visualProperties xmi:id="_gnsa8EXmEee3a7VBoiXGOA" position="-16.5,-79.16666666666663"/>
+      <visibility xmi:id="_gUB4EkXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gUB4EUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gT4HEkXmEee3a7VBoiXGOA" aggregationKind="NONE" name="personData" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8Pc6EXmEee3a7VBoiXGOA"/>
+      <visualProperties xmi:id="_gnsa8kXmEee3a7VBoiXGOA" position="53.74999999999994,-46.99999999999994"/>
+      <visibility xmi:id="_gUB4FEXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gUB4E0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gUB4EEXmEee3a7VBoiXGOA" targetItem="_gULpPUXmEee3a7VBoiXGOA" sourceItem="_gT4HFEXmEee3a7VBoiXGOA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gULpEEXmEee3a7VBoiXGOA" source="_gULpIkXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9I0w0XmEee3a7VBoiXGOA"/>
+    <stereotypes xmi:id="_gULpEUXmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9I0xUXmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gULpEkXmEee3a7VBoiXGOA" text=""/>
+    <sourceRole xmi:id="_gULpE0XmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9I0xEXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gULpFEXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gULpFUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gULpFkXmEee3a7VBoiXGOA" aggregationKind="NONE" name="primaryStage" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8Pc5EXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gULpF0XmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gULpGEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gULpGUXmEee3a7VBoiXGOA" source="_gULpIkXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9I0xkXmEee3a7VBoiXGOA"/>
+    <stereotypes xmi:id="_gULpGkXmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9I0yEXmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gULpG0XmEee3a7VBoiXGOA" text=""/>
+    <sourceRole xmi:id="_gULpHEXmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9I0x0XmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gULpHUXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gULpHkXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gULpH0XmEee3a7VBoiXGOA" aggregationKind="NONE" name="rootLayout" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8Pc5kXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gULpIEXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gULpIUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gV0n0EXmEee3a7VBoiXGOA" sourceAnchor="387.0,201.0" targetAnchor="0.0,110.0" target="_gULpIkXmEee3a7VBoiXGOA" source="_gW3J1kXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9bvukXmEee3a7VBoiXGOA"/>
+    <stereotypes xmi:id="_gWads0XmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9bvvEXmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gWadsEXmEee3a7VBoiXGOA" text="">
+      <visualProperties xmi:id="_gnsa9EXmEee3a7VBoiXGOA" position="-18.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gWadsUXmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9bvu0XmEee3a7VBoiXGOA"/>
+      <visualProperties xmi:id="_gnsa80XmEee3a7VBoiXGOA" position="14.0,2.0"/>
+      <visibility xmi:id="_gWtYoUXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gWtYoEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gWadskXmEee3a7VBoiXGOA" aggregationKind="NONE" name="mainApp" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8sI1kXmEee3a7VBoiXGOA"/>
+      <visualProperties xmi:id="_gnsa9UXmEee3a7VBoiXGOA" position="-102.0,2.0"/>
+      <visibility xmi:id="_gWtYo0XmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gWtYokXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gWHiwEXmEee3a7VBoiXGOA" sourceAnchor="186.0,0.0" targetAnchor="192.0,144.0" target="_gR5KGUXmEee3a7VBoiXGOA" source="_gW3J1kXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9bvvUXmEee3a7VBoiXGOA"/>
+    <stereotypes xmi:id="_gWadt0XmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9bvv0XmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gWadtEXmEee3a7VBoiXGOA" text="">
+      <visualProperties xmi:id="_gnsa90XmEee3a7VBoiXGOA" position="-82.5,24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gWadtUXmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9bvvkXmEee3a7VBoiXGOA"/>
+      <visualProperties xmi:id="_gnsa9kXmEee3a7VBoiXGOA" position="-16.5,-58.0"/>
+      <visibility xmi:id="_gWtYpkXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gWtYpUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gWadtkXmEee3a7VBoiXGOA" aggregationKind="NONE" name="personData" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8sI2EXmEee3a7VBoiXGOA"/>
+      <visualProperties xmi:id="_gnsa-EXmEee3a7VBoiXGOA" position="2.5,13.0"/>
+      <visibility xmi:id="_gWtYqEXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gWtYp0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gWkOsUXmEee3a7VBoiXGOA" targetItem="_gW3KJEXmEee3a7VBoiXGOA" sourceItem="_gWkOsEXmEee3a7VBoiXGOA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gWtYqkXmEee3a7VBoiXGOA" source="_gW3J1kXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9Sl0EXmEee3a7VBoiXGOA"/>
+    <stereotypes xmi:id="_gWtYq0XmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9Sl0kXmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gWtYrEXmEee3a7VBoiXGOA" text=""/>
+    <sourceRole xmi:id="_gWtYrUXmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9Sl0UXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gWtYrkXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gWtYr0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gWtYsEXmEee3a7VBoiXGOA" aggregationKind="NONE" name="Tabla" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8ZN8UXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gWtYsUXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gWtYskXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gW3JoEXmEee3a7VBoiXGOA" source="_gW3J1kXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9Sl00XmEee3a7VBoiXGOA"/>
+    <stereotypes xmi:id="_gW3JoUXmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9Sl1UXmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gW3JokXmEee3a7VBoiXGOA" text=""/>
+    <sourceRole xmi:id="_gW3Jo0XmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9Sl1EXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gW3JpEXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gW3JpUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gW3JpkXmEee3a7VBoiXGOA" aggregationKind="NONE" name="ColName" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8ZN9kXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gW3Jp0XmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3JqEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gW3JqUXmEee3a7VBoiXGOA" source="_gW3J1kXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9Sl1kXmEee3a7VBoiXGOA"/>
+    <stereotypes xmi:id="_gW3JqkXmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9Sl2EXmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gW3Jq0XmEee3a7VBoiXGOA" text=""/>
+    <sourceRole xmi:id="_gW3JrEXmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9Sl10XmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gW3JrUXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gW3JrkXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gW3Jr0XmEee3a7VBoiXGOA" aggregationKind="NONE" name="ColApellido" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8i-5EXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gW3JsEXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3JsUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gW3JskXmEee3a7VBoiXGOA" source="_gW3J1kXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9Sl2UXmEee3a7VBoiXGOA"/>
+    <stereotypes xmi:id="_gW3Js0XmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9bvsEXmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gW3JtEXmEee3a7VBoiXGOA" text=""/>
+    <sourceRole xmi:id="_gW3JtUXmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9Sl2kXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gW3JtkXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gW3Jt0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gW3JuEXmEee3a7VBoiXGOA" aggregationKind="NONE" name="ColTelefono" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8i-6UXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gW3JuUXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3JukXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gW3Ju0XmEee3a7VBoiXGOA" source="_gW3J1kXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9bvsUXmEee3a7VBoiXGOA"/>
+    <stereotypes xmi:id="_gW3JvEXmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9bvs0XmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gW3JvUXmEee3a7VBoiXGOA" text=""/>
+    <sourceRole xmi:id="_gW3JvkXmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9bvskXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gW3Jv0XmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gW3JwEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gW3JwUXmEee3a7VBoiXGOA" aggregationKind="NONE" name="Nuevo" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8i-7kXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gW3JwkXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3Jw0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gW3JxEXmEee3a7VBoiXGOA" source="_gW3J1kXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9bvtEXmEee3a7VBoiXGOA"/>
+    <stereotypes xmi:id="_gW3JxUXmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9bvtkXmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gW3JxkXmEee3a7VBoiXGOA" text=""/>
+    <sourceRole xmi:id="_gW3Jx0XmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9bvtUXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gW3JyEXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gW3JyUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gW3JykXmEee3a7VBoiXGOA" aggregationKind="NONE" name="Editar" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8i-8kXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gW3Jy0XmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3JzEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gW3JzUXmEee3a7VBoiXGOA" source="_gW3J1kXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9bvt0XmEee3a7VBoiXGOA"/>
+    <stereotypes xmi:id="_gW3JzkXmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9bvuUXmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gW3Jz0XmEee3a7VBoiXGOA" text=""/>
+    <sourceRole xmi:id="_gW3J0EXmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9bvuEXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gW3J0UXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gW3J0kXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gW3J00XmEee3a7VBoiXGOA" aggregationKind="NONE" name="Borrar" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8sI0kXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gW3J1EXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3J1UXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gXwhgEXmEee3a7VBoiXGOA" sourceAnchor="143.0,0.0" targetAnchor="217.0,163.0" target="_gVOK4EXmEee3a7VBoiXGOA" source="_gYzDUEXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9SlzUXmEee3a7VBoiXGOA"/>
+    <stereotypes xmi:id="_gYgIY0XmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9Slz0XmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gYgIYEXmEee3a7VBoiXGOA" text="">
+      <visualProperties xmi:id="_gn2L8UXmEee3a7VBoiXGOA" position="-19.0,-8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gYgIYUXmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9SlzkXmEee3a7VBoiXGOA"/>
+      <visualProperties xmi:id="_gn2L8EXmEee3a7VBoiXGOA" position="-21.0,-50.0"/>
+      <visibility xmi:id="_gYpSWEXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gYpSV0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gYgIYkXmEee3a7VBoiXGOA" aggregationKind="NONE" name="persona" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8ZN7UXmEee3a7VBoiXGOA"/>
+      <visualProperties xmi:id="_gn2L8kXmEee3a7VBoiXGOA" position="10.0,5.0"/>
+      <visibility xmi:id="_gYpSWkXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gYpSWUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gYWXYEXmEee3a7VBoiXGOA" targetItem="_gYzDUEXmEee3a7VBoiXGOA" sourceItem="_gYNNcEXmEee3a7VBoiXGOA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gYWXYUXmEee3a7VBoiXGOA" source="_gYzDUEXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9SlykXmEee3a7VBoiXGOA"/>
+    <stereotypes xmi:id="_gYpSVkXmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9SlzEXmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gYpSU0XmEee3a7VBoiXGOA" text=""/>
+    <sourceRole xmi:id="_gYpSVEXmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9Sly0XmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gYpSXUXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gYpSXEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gYpSVUXmEee3a7VBoiXGOA" aggregationKind="NONE" name="ventanaDos" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8ZN60XmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gYpSX0XmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gYpSXkXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gYgIZUXmEee3a7VBoiXGOA" targetItem="_gYzDgkXmEee3a7VBoiXGOA" sourceItem="_gYgIZEXmEee3a7VBoiXGOA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gYpSUEXmEee3a7VBoiXGOA" targetItem="_gYzDh0XmEee3a7VBoiXGOA" sourceItem="_gYgIZkXmEee3a7VBoiXGOA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gYpSUkXmEee3a7VBoiXGOA" targetItem="_gYzDjUXmEee3a7VBoiXGOA" sourceItem="_gYpSUUXmEee3a7VBoiXGOA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gYpSYUXmEee3a7VBoiXGOA" source="_gYzDUEXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9SlwUXmEee3a7VBoiXGOA"/>
+    <stereotypes xmi:id="_gYpSYkXmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9Slw0XmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gYpSY0XmEee3a7VBoiXGOA" text=""/>
+    <sourceRole xmi:id="_gYpSZEXmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9SlwkXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gYpSZUXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gYpSZkXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gYpSZ0XmEee3a7VBoiXGOA" aggregationKind="NONE" name="NombreField" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8Pc7UXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gYpSaEXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gYpSaUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gYpSakXmEee3a7VBoiXGOA" source="_gYzDUEXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9SlxEXmEee3a7VBoiXGOA"/>
+    <stereotypes xmi:id="_gYpSa0XmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9SlxkXmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gYpSbEXmEee3a7VBoiXGOA" text=""/>
+    <sourceRole xmi:id="_gYpSbUXmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9SlxUXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gYpSbkXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gYpSb0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gYpScEXmEee3a7VBoiXGOA" aggregationKind="NONE" name="ApellidoField" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8ZN40XmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gYpScUXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gYpSckXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gYpSc0XmEee3a7VBoiXGOA" source="_gYzDUEXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c9Slx0XmEee3a7VBoiXGOA"/>
+    <stereotypes xmi:id="_gYpSdEXmEee3a7VBoiXGOA" name="Reference">
+      <modelElement href="AgendaFX.uml#_c9SlyUXmEee3a7VBoiXGOA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gYpSdUXmEee3a7VBoiXGOA" text=""/>
+    <sourceRole xmi:id="_gYpSdkXmEee3a7VBoiXGOA" aggregationKind="NONE" name="">
+      <modelElement href="AgendaFX.uml#_c9SlyEXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gYpSd0XmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gYpSeEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gYpSeUXmEee3a7VBoiXGOA" aggregationKind="NONE" name="TelefonoField" navigable="true">
+      <modelElement href="AgendaFX.uml#_c8ZN50XmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gYpSekXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gYpSe0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gT4HFEXmEee3a7VBoiXGOA" sourceConnectionVisual="_gUB4EEXmEee3a7VBoiXGOA" text="Opens a dialog to edit details for the specified person. If the user&#xD;&#xA;     * clicks OK, the changes are saved into the provided person object and true&#xD;&#xA;     * is returned.&#xD;&#xA;     *&#xD;&#xA;     * @param person the person object to be edited&#xD;&#xA;     * @return true if the user clicked OK, false otherwise." item="_gULpPUXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c8_DykXmEee3a7VBoiXGOA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gWkOsEXmEee3a7VBoiXGOA" sourceConnectionVisual="_gWkOsUXmEee3a7VBoiXGOA" text="Is called by the main application to give a reference back to itself.&#xD;&#xA;     *&#xD;&#xA;     * @param mainApp" item="_gW3KJEXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c8_Dz0XmEee3a7VBoiXGOA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gYNNcEXmEee3a7VBoiXGOA" sourceConnectionVisual="_gYWXYEXmEee3a7VBoiXGOA" text="Dialog to edit details of a person.&#xD;&#xA; *" item="_gYzDUEXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c8_Dy0XmEee3a7VBoiXGOA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gYgIZEXmEee3a7VBoiXGOA" sourceConnectionVisual="_gYgIZUXmEee3a7VBoiXGOA" text="Validates the user input in the text fields.&#xD;&#xA;     *&#xD;&#xA;     * @return true if the input is valid" item="_gYzDgkXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c8_DzkXmEee3a7VBoiXGOA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gYgIZkXmEee3a7VBoiXGOA" sourceConnectionVisual="_gYpSUEXmEee3a7VBoiXGOA" text="Sets the person to be edited in the dialog.&#xD;&#xA;     *&#xD;&#xA;     * @param person" item="_gYzDh0XmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c8_DzUXmEee3a7VBoiXGOA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gYpSUUXmEee3a7VBoiXGOA" sourceConnectionVisual="_gYpSUkXmEee3a7VBoiXGOA" text="Establece el Stage de esta ventana para poder cerrarla&#xD;&#xA;     *&#xD;&#xA;     * @param ventanaDos" item="_gYzDjUXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c8_DzEXmEee3a7VBoiXGOA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gULpIkXmEee3a7VBoiXGOA" name="Main" associationsIn="_gV0n0EXmEee3a7VBoiXGOA" associationsOut="_gTu9IEXmEee3a7VBoiXGOA _gULpEEXmEee3a7VBoiXGOA _gULpGUXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c5HQZEXmEee3a7VBoiXGOA"/>
+    <visualProperties xmi:id="_gULpI0XmEee3a7VBoiXGOA" position="616.0,337.0" size="345.0,220.0"/>
+    <visibility xmi:id="_gULpJEXmEee3a7VBoiXGOA" label="+"/>
+    <attributes xmi:id="_gULpJUXmEee3a7VBoiXGOA" name="primaryStage">
+      <modelElement href="AgendaFX.uml#_c8Pc5EXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gULpJkXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8Pc5UXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gULpJ0XmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gULpKEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gULpKUXmEee3a7VBoiXGOA" name="Stage">
+        <modelElement href="AgendaFX.uml#_c7WsG0XmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gULpKkXmEee3a7VBoiXGOA" name="rootLayout">
+      <modelElement href="AgendaFX.uml#_c8Pc5kXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gULpK0XmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8Pc50XmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gULpLEXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gULpLUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gULpLkXmEee3a7VBoiXGOA" name="AnchorPane">
+        <modelElement href="AgendaFX.uml#_c7f2A0XmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gULpL0XmEee3a7VBoiXGOA" name="personData" staticAttribute="true">
+      <modelElement href="AgendaFX.uml#_c8Pc6EXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gULpMEXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8Pc6UXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gULpMUXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gULpMkXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gULpM0XmEee3a7VBoiXGOA" name="DatosPersona">
+        <modelElement href="AgendaFX.uml#_c4-GcEXmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gULpNEXmEee3a7VBoiXGOA" name="main" staticOperation="true">
+      <modelElement href="AgendaFX.uml#_c5RBYEXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gULpNUXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gULpNkXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gULpN0XmEee3a7VBoiXGOA" name="args">
+        <modelElement href="AgendaFX.uml#_c5RBYUXmEee3a7VBoiXGOA"/>
+        <cardinality xmi:id="_gULpOEXmEee3a7VBoiXGOA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_gULpOUXmEee3a7VBoiXGOA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gULpOkXmEee3a7VBoiXGOA" name="NewPerson">
+      <modelElement href="AgendaFX.uml#_c5RBY0XmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gULpO0XmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gULpPEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gULpPUXmEee3a7VBoiXGOA" comments="_gT4HFEXmEee3a7VBoiXGOA" targetConnectionVisual="_gUB4EEXmEee3a7VBoiXGOA" name="showPersonEditDialog">
+      <modelElement href="AgendaFX.uml#_c7f2BUXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gULpPkXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gULpP0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gULpQEXmEee3a7VBoiXGOA">
+        <modelElement href="AgendaFX.uml#_c7f2B0XmEee3a7VBoiXGOA"/>
+        <type xmi:id="_gULpQUXmEee3a7VBoiXGOA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gULpQkXmEee3a7VBoiXGOA" name="person">
+        <modelElement href="AgendaFX.uml#_c7f2BkXmEee3a7VBoiXGOA"/>
+        <cardinality xmi:id="_gULpQ0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+        <type xmi:id="_gULpREXmEee3a7VBoiXGOA" name="Persona">
+          <modelElement href="AgendaFX.uml#_c5RBZEXmEee3a7VBoiXGOA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gULpRUXmEee3a7VBoiXGOA" name="EditPerson">
+      <modelElement href="AgendaFX.uml#_c7f2CEXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gULpRkXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gULpR0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gULpSEXmEee3a7VBoiXGOA" name="person">
+        <modelElement href="AgendaFX.uml#_c7f2CUXmEee3a7VBoiXGOA"/>
+        <cardinality xmi:id="_gULpSUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+        <type xmi:id="_gULpSkXmEee3a7VBoiXGOA" name="Persona">
+          <modelElement href="AgendaFX.uml#_c5RBZEXmEee3a7VBoiXGOA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gULpS0XmEee3a7VBoiXGOA" name="iIndex">
+        <modelElement href="AgendaFX.uml#_c7f2CkXmEee3a7VBoiXGOA"/>
+        <cardinality xmi:id="_gULpTEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+        <type xmi:id="_gULpTUXmEee3a7VBoiXGOA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gULpTkXmEee3a7VBoiXGOA" name="start">
+      <modelElement href="AgendaFX.uml#_c8GS8EXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gULpT0XmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8GS8kXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gULpUEXmEee3a7VBoiXGOA" name="Annotations">
+        <modelElement href="AgendaFX.uml#_c8GS80XmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gULpUUXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gULpUkXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gULpU0XmEee3a7VBoiXGOA" name="primaryStage">
+        <modelElement href="AgendaFX.uml#_c8GS8UXmEee3a7VBoiXGOA"/>
+        <cardinality xmi:id="_gULpVEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+        <type xmi:id="_gULpVUXmEee3a7VBoiXGOA" name="Stage">
+          <modelElement href="AgendaFX.uml#_c7WsG0XmEee3a7VBoiXGOA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gVOK4EXmEee3a7VBoiXGOA" name="Persona" associationsIn="_gXwhgEXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c5RBZEXmEee3a7VBoiXGOA"/>
+    <visualProperties xmi:id="_gVOK4UXmEee3a7VBoiXGOA" position="13.0,639.0" size="435.0,163.0"/>
+    <visibility xmi:id="_gVOK4kXmEee3a7VBoiXGOA" label="+"/>
+    <attributes xmi:id="_gVOK40XmEee3a7VBoiXGOA" name="nombre">
+      <modelElement href="AgendaFX.uml#_c8Pc6kXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gVOK5EXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gVOK5UXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gVOK5kXmEee3a7VBoiXGOA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gVOK50XmEee3a7VBoiXGOA" name="apellido">
+      <modelElement href="AgendaFX.uml#_c8Pc60XmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gVOK6EXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gVOK6UXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gVOK6kXmEee3a7VBoiXGOA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gVOK60XmEee3a7VBoiXGOA" name="telefono">
+      <modelElement href="AgendaFX.uml#_c8Pc7EXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gVOK7EXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gVOK7UXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gVOK7kXmEee3a7VBoiXGOA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gVOK70XmEee3a7VBoiXGOA" name="Persona">
+      <modelElement href="AgendaFX.uml#_c5aLUEXmEee3a7VBoiXGOA"/>
+      <keywords xmi:id="_gVOK8EXmEee3a7VBoiXGOA" keyword="create"/>
+      <visibility xmi:id="_gVOK8UXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gVOK8kXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gVOK80XmEee3a7VBoiXGOA">
+        <modelElement href="AgendaFX.uml#_c5aLVkXmEee3a7VBoiXGOA"/>
+        <type xmi:id="_gVOK9EXmEee3a7VBoiXGOA" name="Persona">
+          <modelElement href="AgendaFX.uml#_c5RBZEXmEee3a7VBoiXGOA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gVOK9UXmEee3a7VBoiXGOA" name="nombre">
+        <modelElement href="AgendaFX.uml#_c5aLUUXmEee3a7VBoiXGOA"/>
+        <cardinality xmi:id="_gVOK9kXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+        <type xmi:id="_gVOK90XmEee3a7VBoiXGOA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gVOK-EXmEee3a7VBoiXGOA" name="apellido">
+        <modelElement href="AgendaFX.uml#_c5aLUkXmEee3a7VBoiXGOA"/>
+        <cardinality xmi:id="_gVOK-UXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+        <type xmi:id="_gVOK-kXmEee3a7VBoiXGOA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gVOK-0XmEee3a7VBoiXGOA" name="telefono">
+        <modelElement href="AgendaFX.uml#_c5aLU0XmEee3a7VBoiXGOA"/>
+        <cardinality xmi:id="_gVOK_EXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+        <type xmi:id="_gVOK_UXmEee3a7VBoiXGOA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gYzDUEXmEee3a7VBoiXGOA" comments="_gYNNcEXmEee3a7VBoiXGOA" targetConnectionVisual="_gYWXYEXmEee3a7VBoiXGOA" name="PersonEditDialogController" associationsOut="_gXwhgEXmEee3a7VBoiXGOA _gYWXYUXmEee3a7VBoiXGOA _gYpSYUXmEee3a7VBoiXGOA _gYpSakXmEee3a7VBoiXGOA _gYpSc0XmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c5aLV0XmEee3a7VBoiXGOA"/>
+    <visualProperties xmi:id="_gYzDUUXmEee3a7VBoiXGOA" position="87.0,949.0" size="285.0,296.0"/>
+    <visibility xmi:id="_gYzDUkXmEee3a7VBoiXGOA" label="+"/>
+    <attributes xmi:id="_gYzDU0XmEee3a7VBoiXGOA" name="NombreField">
+      <modelElement href="AgendaFX.uml#_c8Pc7UXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gYzDVEXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8ZN4EXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gYzDVUXmEee3a7VBoiXGOA" name="Annotations">
+        <modelElement href="AgendaFX.uml#_c8ZN4UXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gYzDVkXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gYzDV0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gYzDWEXmEee3a7VBoiXGOA" name="TextField">
+        <modelElement href="AgendaFX.uml#_c7pnBUXmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gYzDWUXmEee3a7VBoiXGOA" name="ApellidoField">
+      <modelElement href="AgendaFX.uml#_c8ZN40XmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gYzDWkXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8ZN5EXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gYzDW0XmEee3a7VBoiXGOA" name="Annotations">
+        <modelElement href="AgendaFX.uml#_c8ZN5UXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gYzDXEXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gYzDXUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gYzDXkXmEee3a7VBoiXGOA" name="TextField">
+        <modelElement href="AgendaFX.uml#_c7pnBUXmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gYzDX0XmEee3a7VBoiXGOA" name="TelefonoField">
+      <modelElement href="AgendaFX.uml#_c8ZN50XmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gYzDYEXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8ZN6EXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gYzDYUXmEee3a7VBoiXGOA" name="Annotations">
+        <modelElement href="AgendaFX.uml#_c8ZN6UXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gYzDYkXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gYzDY0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gYzDZEXmEee3a7VBoiXGOA" name="TextField">
+        <modelElement href="AgendaFX.uml#_c7pnBUXmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gYzDZUXmEee3a7VBoiXGOA" name="ventanaDos">
+      <modelElement href="AgendaFX.uml#_c8ZN60XmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gYzDZkXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8ZN7EXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gYzDZ0XmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gYzDaEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gYzDaUXmEee3a7VBoiXGOA" name="Stage">
+        <modelElement href="AgendaFX.uml#_c7WsG0XmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gYzDakXmEee3a7VBoiXGOA" name="persona">
+      <modelElement href="AgendaFX.uml#_c8ZN7UXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gYzDa0XmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8ZN7kXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gYzDbEXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gYzDbUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gYzDbkXmEee3a7VBoiXGOA" name="Persona">
+        <modelElement href="AgendaFX.uml#_c5RBZEXmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gYzDb0XmEee3a7VBoiXGOA" defaultValue="false" name="okClicked">
+      <modelElement href="AgendaFX.uml#_c8ZN70XmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gYzDcEXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gYzDcUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gYzDckXmEee3a7VBoiXGOA" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gYzDc0XmEee3a7VBoiXGOA" name="initialize">
+      <modelElement href="AgendaFX.uml#_c5aLWEXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gYzDdEXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c5aLWUXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gYzDdUXmEee3a7VBoiXGOA" name="Annotations">
+        <modelElement href="AgendaFX.uml#_c5aLWkXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gYzDdkXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gYzDd0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gYzDeEXmEee3a7VBoiXGOA" name="handleOk">
+      <modelElement href="AgendaFX.uml#_c5j8UUXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gYzDeUXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c5j8UkXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gYzDekXmEee3a7VBoiXGOA" name="Annotations">
+        <modelElement href="AgendaFX.uml#_c5j8U0XmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gYzDe0XmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gYzDfEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gYzDfUXmEee3a7VBoiXGOA" name="handleCancel">
+      <modelElement href="AgendaFX.uml#_c5j8VUXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gYzDfkXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c5j8VkXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gYzDf0XmEee3a7VBoiXGOA" name="Annotations">
+        <modelElement href="AgendaFX.uml#_c5j8V0XmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gYzDgEXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gYzDgUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gYzDgkXmEee3a7VBoiXGOA" comments="_gYgIZEXmEee3a7VBoiXGOA" targetConnectionVisual="_gYgIZUXmEee3a7VBoiXGOA" name="isInputValid">
+      <modelElement href="AgendaFX.uml#_c5j8WUXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gYzDg0XmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gYzDhEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gYzDhUXmEee3a7VBoiXGOA">
+        <modelElement href="AgendaFX.uml#_c5j8WkXmEee3a7VBoiXGOA"/>
+        <type xmi:id="_gYzDhkXmEee3a7VBoiXGOA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_gYzDh0XmEee3a7VBoiXGOA" comments="_gYgIZkXmEee3a7VBoiXGOA" targetConnectionVisual="_gYpSUEXmEee3a7VBoiXGOA" name="setPerson">
+      <modelElement href="AgendaFX.uml#_c7pnB0XmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gYzDiEXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gYzDiUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gYzDikXmEee3a7VBoiXGOA" name="persona">
+        <modelElement href="AgendaFX.uml#_c7pnCEXmEee3a7VBoiXGOA"/>
+        <cardinality xmi:id="_gYzDi0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+        <type xmi:id="_gYzDjEXmEee3a7VBoiXGOA" name="Persona">
+          <modelElement href="AgendaFX.uml#_c5RBZEXmEee3a7VBoiXGOA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gYzDjUXmEee3a7VBoiXGOA" comments="_gYpSUUXmEee3a7VBoiXGOA" targetConnectionVisual="_gYpSUkXmEee3a7VBoiXGOA" name="setVentanaDialoge">
+      <modelElement href="AgendaFX.uml#_c8GS9kXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gYzDjkXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gYzDj0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gYzDkEXmEee3a7VBoiXGOA" name="ventanaDos">
+        <modelElement href="AgendaFX.uml#_c8GS90XmEee3a7VBoiXGOA"/>
+        <cardinality xmi:id="_gYzDkUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+        <type xmi:id="_gYzDkkXmEee3a7VBoiXGOA" name="Stage">
+          <modelElement href="AgendaFX.uml#_c7WsG0XmEee3a7VBoiXGOA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gW3J1kXmEee3a7VBoiXGOA" name="PersonaController" associationsOut="_gV0n0EXmEee3a7VBoiXGOA _gWHiwEXmEee3a7VBoiXGOA _gWtYqkXmEee3a7VBoiXGOA _gW3JoEXmEee3a7VBoiXGOA _gW3JqUXmEee3a7VBoiXGOA _gW3JskXmEee3a7VBoiXGOA _gW3Ju0XmEee3a7VBoiXGOA _gW3JxEXmEee3a7VBoiXGOA _gW3JzUXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c5ttUEXmEee3a7VBoiXGOA"/>
+    <visualProperties xmi:id="_gW3J10XmEee3a7VBoiXGOA" position="16.0,246.0" size="387.0,334.0"/>
+    <visibility xmi:id="_gW3J2EXmEee3a7VBoiXGOA" label="+"/>
+    <attributes xmi:id="_gW3J2UXmEee3a7VBoiXGOA" name="Tabla">
+      <modelElement href="AgendaFX.uml#_c8ZN8UXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gW3J2kXmEee3a7VBoiXGOA" name="Generics">
+        <modelElement href="AgendaFX.uml#_c8ZN8kXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gW3J20XmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8ZN80XmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gW3J3EXmEee3a7VBoiXGOA" name="Annotations">
+        <modelElement href="AgendaFX.uml#_c8ZN9EXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gW3J3UXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3J3kXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gW3J30XmEee3a7VBoiXGOA" name="TableView">
+        <modelElement href="AgendaFX.uml#_c7yw8kXmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gW3J4EXmEee3a7VBoiXGOA" name="ColName">
+      <modelElement href="AgendaFX.uml#_c8ZN9kXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gW3J4UXmEee3a7VBoiXGOA" name="Generics">
+        <modelElement href="AgendaFX.uml#_c8i-4EXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gW3J4kXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8i-4UXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gW3J40XmEee3a7VBoiXGOA" name="Annotations">
+        <modelElement href="AgendaFX.uml#_c8i-4kXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gW3J5EXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3J5UXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gW3J5kXmEee3a7VBoiXGOA" name="TableColumn">
+        <modelElement href="AgendaFX.uml#_c7yw8EXmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gW3J50XmEee3a7VBoiXGOA" name="ColApellido">
+      <modelElement href="AgendaFX.uml#_c8i-5EXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gW3J6EXmEee3a7VBoiXGOA" name="Generics">
+        <modelElement href="AgendaFX.uml#_c8i-5UXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gW3J6UXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8i-5kXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gW3J6kXmEee3a7VBoiXGOA" name="Annotations">
+        <modelElement href="AgendaFX.uml#_c8i-50XmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gW3J60XmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3J7EXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gW3J7UXmEee3a7VBoiXGOA" name="TableColumn">
+        <modelElement href="AgendaFX.uml#_c7yw8EXmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gW3J7kXmEee3a7VBoiXGOA" name="ColTelefono">
+      <modelElement href="AgendaFX.uml#_c8i-6UXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gW3J70XmEee3a7VBoiXGOA" name="Generics">
+        <modelElement href="AgendaFX.uml#_c8i-6kXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gW3J8EXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8i-60XmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gW3J8UXmEee3a7VBoiXGOA" name="Annotations">
+        <modelElement href="AgendaFX.uml#_c8i-7EXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gW3J8kXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3J80XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gW3J9EXmEee3a7VBoiXGOA" name="TableColumn">
+        <modelElement href="AgendaFX.uml#_c7yw8EXmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gW3J9UXmEee3a7VBoiXGOA" name="Nuevo">
+      <modelElement href="AgendaFX.uml#_c8i-7kXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gW3J9kXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8i-70XmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gW3J90XmEee3a7VBoiXGOA" name="Annotations">
+        <modelElement href="AgendaFX.uml#_c8i-8EXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gW3J-EXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3J-UXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gW3J-kXmEee3a7VBoiXGOA" name="Button">
+        <modelElement href="AgendaFX.uml#_c7yw9EXmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gW3J-0XmEee3a7VBoiXGOA" name="Editar">
+      <modelElement href="AgendaFX.uml#_c8i-8kXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gW3J_EXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8i-80XmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gW3J_UXmEee3a7VBoiXGOA" name="Annotations">
+        <modelElement href="AgendaFX.uml#_c8sI0EXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gW3J_kXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3J_0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gW3KAEXmEee3a7VBoiXGOA" name="Button">
+        <modelElement href="AgendaFX.uml#_c7yw9EXmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gW3KAUXmEee3a7VBoiXGOA" name="Borrar">
+      <modelElement href="AgendaFX.uml#_c8sI0kXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gW3KAkXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8sI00XmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gW3KA0XmEee3a7VBoiXGOA" name="Annotations">
+        <modelElement href="AgendaFX.uml#_c8sI1EXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gW3KBEXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3KBUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gW3KBkXmEee3a7VBoiXGOA" name="Button">
+        <modelElement href="AgendaFX.uml#_c7yw9EXmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gW3KB0XmEee3a7VBoiXGOA" name="mainApp">
+      <modelElement href="AgendaFX.uml#_c8sI1kXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gW3KCEXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8sI10XmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gW3KCUXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3KCkXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gW3KC0XmEee3a7VBoiXGOA" name="Main">
+        <modelElement href="AgendaFX.uml#_c5HQZEXmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gW3KDEXmEee3a7VBoiXGOA" name="personData">
+      <modelElement href="AgendaFX.uml#_c8sI2EXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gW3KDUXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c8sI2UXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gW3KDkXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3KD0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gW3KEEXmEee3a7VBoiXGOA" name="DatosPersona">
+        <modelElement href="AgendaFX.uml#_c4-GcEXmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gW3KEUXmEee3a7VBoiXGOA" name="initialize">
+      <modelElement href="AgendaFX.uml#_c5ttUUXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gW3KEkXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c5ttUkXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gW3KE0XmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gW3KFEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gW3KFUXmEee3a7VBoiXGOA" name="handleDeletePerson">
+      <modelElement href="AgendaFX.uml#_c5ttU0XmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gW3KFkXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c523QEXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gW3KF0XmEee3a7VBoiXGOA" name="Annotations">
+        <modelElement href="AgendaFX.uml#_c523QUXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gW3KGEXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3KGUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gW3KGkXmEee3a7VBoiXGOA" name="handleNewPerson">
+      <modelElement href="AgendaFX.uml#_c523Q0XmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gW3KG0XmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c523REXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gW3KHEXmEee3a7VBoiXGOA" name="Annotations">
+        <modelElement href="AgendaFX.uml#_c523RUXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gW3KHUXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3KHkXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gW3KH0XmEee3a7VBoiXGOA" name="handleEditPerson">
+      <modelElement href="AgendaFX.uml#_c523R0XmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gW3KIEXmEee3a7VBoiXGOA" name="LegacyStyledElement">
+        <modelElement href="AgendaFX.uml#_c523SEXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gW3KIUXmEee3a7VBoiXGOA" name="Annotations">
+        <modelElement href="AgendaFX.uml#_c523SUXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gW3KIkXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3KI0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gW3KJEXmEee3a7VBoiXGOA" comments="_gWkOsEXmEee3a7VBoiXGOA" targetConnectionVisual="_gWkOsUXmEee3a7VBoiXGOA" name="setMainApp">
+      <modelElement href="AgendaFX.uml#_c78h8EXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gW3KJUXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gW3KJkXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gW3KJ0XmEee3a7VBoiXGOA" name="personData">
+        <modelElement href="AgendaFX.uml#_c78h8UXmEee3a7VBoiXGOA"/>
+        <cardinality xmi:id="_gW3KKEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+        <type xmi:id="_gW3KKUXmEee3a7VBoiXGOA" name="DatosPersona">
+          <modelElement href="AgendaFX.uml#_c4-GcEXmEee3a7VBoiXGOA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gW3KKkXmEee3a7VBoiXGOA" name="mainApp">
+        <modelElement href="AgendaFX.uml#_c78h8kXmEee3a7VBoiXGOA"/>
+        <cardinality xmi:id="_gW3KK0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+        <type xmi:id="_gW3KLEXmEee3a7VBoiXGOA" name="Main">
+          <modelElement href="AgendaFX.uml#_c5HQZEXmEee3a7VBoiXGOA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gW3KLUXmEee3a7VBoiXGOA" name="ShowAlertNoSelectionPerson">
+      <modelElement href="AgendaFX.uml#_c8GS-EXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gW3KLkXmEee3a7VBoiXGOA" label="-"/>
+      <cardinality xmi:id="_gW3KL0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gW3KMEXmEee3a7VBoiXGOA" name="alert">
+        <modelElement href="AgendaFX.uml#_c8Pc4EXmEee3a7VBoiXGOA"/>
+        <cardinality xmi:id="_gW3KMUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+        <type xmi:id="_gW3KMkXmEee3a7VBoiXGOA" name="Alert">
+          <modelElement href="AgendaFX.uml#_c7pnAUXmEee3a7VBoiXGOA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gR5KGUXmEee3a7VBoiXGOA" name="DatosPersona" associationsIn="_gTu9IEXmEee3a7VBoiXGOA _gWHiwEXmEee3a7VBoiXGOA" associationsOut="_gR5KEEXmEee3a7VBoiXGOA">
+    <modelElement href="AgendaFX.uml#_c4-GcEXmEee3a7VBoiXGOA"/>
+    <visualProperties xmi:id="_gR5KGkXmEee3a7VBoiXGOA" position="10.0,19.0" size="385.0,144.0"/>
+    <visibility xmi:id="_gR5KG0XmEee3a7VBoiXGOA" label="+"/>
+    <attributes xmi:id="_gR5KHEXmEee3a7VBoiXGOA" defaultValue="FXCollections.observableArrayList()" name="personData">
+      <modelElement href="AgendaFX.uml#_c8Pc4UXmEee3a7VBoiXGOA"/>
+      <stereotypes xmi:id="_gR5KHUXmEee3a7VBoiXGOA" name="Generics">
+        <modelElement href="AgendaFX.uml#_c8Pc4kXmEee3a7VBoiXGOA"/>
+      </stereotypes>
+      <visibility xmi:id="_gR5KHkXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gR5KH0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <type xmi:id="_gR5KIEXmEee3a7VBoiXGOA" name="ObservableList">
+        <modelElement href="AgendaFX.uml#_c7M7EkXmEee3a7VBoiXGOA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gR5KIUXmEee3a7VBoiXGOA" name="DatosPersona">
+      <modelElement href="AgendaFX.uml#_c5HQYEXmEee3a7VBoiXGOA"/>
+      <keywords xmi:id="_gR5KIkXmEee3a7VBoiXGOA" keyword="create"/>
+      <visibility xmi:id="_gR5KI0XmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gR5KJEXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gR5KJUXmEee3a7VBoiXGOA">
+        <modelElement href="AgendaFX.uml#_c5HQY0XmEee3a7VBoiXGOA"/>
+        <type xmi:id="_gR5KJkXmEee3a7VBoiXGOA" name="DatosPersona">
+          <modelElement href="AgendaFX.uml#_c4-GcEXmEee3a7VBoiXGOA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_gR5KJ0XmEee3a7VBoiXGOA" name="addPerson">
+      <modelElement href="AgendaFX.uml#_c7WsEUXmEee3a7VBoiXGOA"/>
+      <visibility xmi:id="_gR5KKEXmEee3a7VBoiXGOA" label="+"/>
+      <cardinality xmi:id="_gR5KKUXmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gR5KKkXmEee3a7VBoiXGOA" name="personNew">
+        <modelElement href="AgendaFX.uml#_c7WsEkXmEee3a7VBoiXGOA"/>
+        <cardinality xmi:id="_gR5KK0XmEee3a7VBoiXGOA" label="1" max="1" min="1"/>
+        <type xmi:id="_gR5KLEXmEee3a7VBoiXGOA" name="Persona">
+          <modelElement href="AgendaFX.uml#_c5RBZEXmEee3a7VBoiXGOA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

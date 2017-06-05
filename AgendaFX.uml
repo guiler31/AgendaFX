@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_cDIDkEXmEee3a7VBoiXGOA" name="AgendaFX">
+    <eAnnotations xmi:id="_cSII4EXmEee3a7VBoiXGOA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_cSII4UXmEee3a7VBoiXGOA" source="codegen">
+        <details xmi:id="_cSII4kXmEee3a7VBoiXGOA" key="codegenDirectory" value="/AgendaFX/src"/>
+        <details xmi:id="_dxrQEEXmEee3a7VBoiXGOA" key="AssociatedSourceCode" value="/AgendaFX/src/Modelo/DatosPersona.java;3945122259/1;/AgendaFX/src/application/Main.java;1951304630/1;/AgendaFX/src/Modelo/Persona.java;1147369057/1;/AgendaFX/src/vista/PersonEditDialogController.java;3886795264/1;/AgendaFX/src/vista/PersonaController.java;3540560583/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_c33TMEXmEee3a7VBoiXGOA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_c33TMUXmEee3a7VBoiXGOA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_c33TMkXmEee3a7VBoiXGOA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_c33TM0XmEee3a7VBoiXGOA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_c33TNEXmEee3a7VBoiXGOA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_c33TNUXmEee3a7VBoiXGOA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_c33TNkXmEee3a7VBoiXGOA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_c33TN0XmEee3a7VBoiXGOA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_c35vcEXmEee3a7VBoiXGOA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_c369kEXmEee3a7VBoiXGOA" name="javafx">
+      <packagedElement xmi:type="uml:Package" xmi:id="_c369kUXmEee3a7VBoiXGOA" name="collections">
+        <packagedElement xmi:type="uml:Class" xmi:id="_c7M7EEXmEee3a7VBoiXGOA" name="FXCollections"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_c7M7EkXmEee3a7VBoiXGOA" name="ObservableList"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_c4Euk0XmEee3a7VBoiXGOA" name="application">
+        <packagedElement xmi:type="uml:Class" xmi:id="_c7WsFUXmEee3a7VBoiXGOA" name="Application"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_c4EulEXmEee3a7VBoiXGOA" name="fxml">
+        <packagedElement xmi:type="uml:Class" xmi:id="_c7WsF0XmEee3a7VBoiXGOA" name="FXMLLoader"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_c7f2C0XmEee3a7VBoiXGOA" name="FXML"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_c4EulUXmEee3a7VBoiXGOA" name="stage">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_c7WsGUXmEee3a7VBoiXGOA" name="Modality"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_c7WsG0XmEee3a7VBoiXGOA" name="Stage"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_c4Eul0XmEee3a7VBoiXGOA" name="scene">
+        <packagedElement xmi:type="uml:Package" xmi:id="_c4EumEXmEee3a7VBoiXGOA" name="layout">
+          <packagedElement xmi:type="uml:Class" xmi:id="_c7f2A0XmEee3a7VBoiXGOA" name="AnchorPane"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_c4XpgEXmEee3a7VBoiXGOA" name="control">
+          <packagedElement xmi:type="uml:Package" xmi:id="_c4XpgUXmEee3a7VBoiXGOA" name="Alert">
+            <packagedElement xmi:type="uml:Enumeration" xmi:id="_c7pnA0XmEee3a7VBoiXGOA" name="AlertType"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_c4hagEXmEee3a7VBoiXGOA" name="cell">
+            <packagedElement xmi:type="uml:Class" xmi:id="_c7yw9kXmEee3a7VBoiXGOA" name="PropertyValueFactory"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_c7pnAUXmEee3a7VBoiXGOA" name="Alert"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_c7pnBUXmEee3a7VBoiXGOA" name="TextField"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_c7yw8EXmEee3a7VBoiXGOA" name="TableColumn"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_c7yw8kXmEee3a7VBoiXGOA" name="TableView"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_c7yw9EXmEee3a7VBoiXGOA" name="Button"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_c7f2AUXmEee3a7VBoiXGOA" name="Scene"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_c4EukEXmEee3a7VBoiXGOA" name="Modelo">
+      <packagedElement xmi:type="uml:Class" xmi:id="_c4-GcEXmEee3a7VBoiXGOA" name="DatosPersona">
+        <ownedAttribute xmi:id="_c8Pc4UXmEee3a7VBoiXGOA" name="personData" type="_c7M7EkXmEee3a7VBoiXGOA" association="_c9I0wEXmEee3a7VBoiXGOA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_c8Pc40XmEee3a7VBoiXGOA" value="FXCollections.observableArrayList()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c8150EXmEee3a7VBoiXGOA" name="DatosPersona" specification="_c5HQYEXmEee3a7VBoiXGOA">
+          <ownedParameter xmi:id="_c8150UXmEee3a7VBoiXGOA" type="_c4-GcEXmEee3a7VBoiXGOA" direction="return"/>
+          <language>java</language>
+          <body>//Inits personData&#xD;
+		this.personData.add(new Persona(&quot;David&quot;, &quot;Perez&quot;, &quot;600521521&quot;));&#xD;
+	    this.personData.add(new Persona(&quot;Pedro&quot;, &quot;Camachor&quot;, &quot;600521521&quot;));&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c8150kXmEee3a7VBoiXGOA" name="addPerson" specification="_c7WsEUXmEee3a7VBoiXGOA">
+          <ownedParameter xmi:id="_c81500XmEee3a7VBoiXGOA" name="personNew" type="_c5RBZEXmEee3a7VBoiXGOA"/>
+          <language>java</language>
+          <body>this.personData.add(personNew);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_c5HQYEXmEee3a7VBoiXGOA" name="DatosPersona" method="_c8150EXmEee3a7VBoiXGOA">
+          <eAnnotations xmi:id="_c5HQYUXmEee3a7VBoiXGOA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_c5HQYkXmEee3a7VBoiXGOA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_c5HQY0XmEee3a7VBoiXGOA" type="_c4-GcEXmEee3a7VBoiXGOA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_c7WsEUXmEee3a7VBoiXGOA" name="addPerson" method="_c8150kXmEee3a7VBoiXGOA">
+          <ownedParameter xmi:id="_c7WsEkXmEee3a7VBoiXGOA" name="personNew" type="_c5RBZEXmEee3a7VBoiXGOA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_c5RBZEXmEee3a7VBoiXGOA" name="Persona">
+        <ownedAttribute xmi:id="_c8Pc6kXmEee3a7VBoiXGOA" name="nombre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_c8Pc60XmEee3a7VBoiXGOA" name="apellido">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_c8Pc7EXmEee3a7VBoiXGOA" name="telefono">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c8154EXmEee3a7VBoiXGOA" name="Persona" specification="_c5aLUEXmEee3a7VBoiXGOA">
+          <ownedParameter xmi:id="_c8154UXmEee3a7VBoiXGOA" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_c8154kXmEee3a7VBoiXGOA" name="apellido">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_c81540XmEee3a7VBoiXGOA" name="telefono">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_c8155EXmEee3a7VBoiXGOA" type="_c5RBZEXmEee3a7VBoiXGOA" direction="return"/>
+          <language>java</language>
+          <body>this.nombre = nombre;&#xD;
+	    this.apellido = apellido;&#xD;
+	    this.telefono = telefono;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_c5aLUEXmEee3a7VBoiXGOA" name="Persona" method="_c8154EXmEee3a7VBoiXGOA">
+          <eAnnotations xmi:id="_c5aLVEXmEee3a7VBoiXGOA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_c5aLVUXmEee3a7VBoiXGOA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_c5aLUUXmEee3a7VBoiXGOA" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_c5aLUkXmEee3a7VBoiXGOA" name="apellido">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_c5aLU0XmEee3a7VBoiXGOA" name="telefono">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_c5aLVkXmEee3a7VBoiXGOA" type="_c5RBZEXmEee3a7VBoiXGOA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9I0wEXmEee3a7VBoiXGOA" name="" memberEnd="_c9I0wUXmEee3a7VBoiXGOA _c8Pc4UXmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9I0wUXmEee3a7VBoiXGOA" name="" type="_c4-GcEXmEee3a7VBoiXGOA" association="_c9I0wEXmEee3a7VBoiXGOA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_c4EukUXmEee3a7VBoiXGOA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_c4EukkXmEee3a7VBoiXGOA" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_c7WsE0XmEee3a7VBoiXGOA" name="IOException"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_c4EulkXmEee3a7VBoiXGOA" name="vista">
+      <packagedElement xmi:type="uml:Class" xmi:id="_c5aLV0XmEee3a7VBoiXGOA" name="PersonEditDialogController">
+        <ownedComment xmi:id="_c8_Dy0XmEee3a7VBoiXGOA">
+          <body>Dialog to edit details of a person.&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_c8Pc7UXmEee3a7VBoiXGOA" name="NombreField" visibility="private" type="_c7pnBUXmEee3a7VBoiXGOA" association="_c9SlwUXmEee3a7VBoiXGOA"/>
+        <ownedAttribute xmi:id="_c8ZN40XmEee3a7VBoiXGOA" name="ApellidoField" visibility="private" type="_c7pnBUXmEee3a7VBoiXGOA" association="_c9SlxEXmEee3a7VBoiXGOA"/>
+        <ownedAttribute xmi:id="_c8ZN50XmEee3a7VBoiXGOA" name="TelefonoField" visibility="private" type="_c7pnBUXmEee3a7VBoiXGOA" association="_c9Slx0XmEee3a7VBoiXGOA"/>
+        <ownedAttribute xmi:id="_c8ZN60XmEee3a7VBoiXGOA" name="ventanaDos" visibility="private" type="_c7WsG0XmEee3a7VBoiXGOA" association="_c9SlykXmEee3a7VBoiXGOA"/>
+        <ownedAttribute xmi:id="_c8ZN7UXmEee3a7VBoiXGOA" name="persona" visibility="private" type="_c5RBZEXmEee3a7VBoiXGOA" association="_c9SlzUXmEee3a7VBoiXGOA"/>
+        <ownedAttribute xmi:id="_c8ZN70XmEee3a7VBoiXGOA" name="okClicked" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_c8ZN8EXmEee3a7VBoiXGOA" value="false"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c8155UXmEee3a7VBoiXGOA" name="setVentanaDialoge" specification="_c8GS9kXmEee3a7VBoiXGOA">
+          <ownedParameter xmi:id="_c8155kXmEee3a7VBoiXGOA" name="ventanaDos" type="_c7WsG0XmEee3a7VBoiXGOA"/>
+          <language>java</language>
+          <body>this.ventanaDos = ventanaDos;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c81550XmEee3a7VBoiXGOA" name="setPerson" specification="_c7pnB0XmEee3a7VBoiXGOA">
+          <ownedParameter xmi:id="_c8156EXmEee3a7VBoiXGOA" name="persona" type="_c5RBZEXmEee3a7VBoiXGOA"/>
+          <language>java</language>
+          <body>this.persona = persona;&#xD;
+&#xD;
+     NombreField.setText(persona.getNombre());&#xD;
+     ApellidoField.setText(persona.getApellido());&#xD;
+     TelefonoField.setText(persona.getTelefono());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c8156UXmEee3a7VBoiXGOA" name="handleOk" specification="_c5j8UUXmEee3a7VBoiXGOA">
+          <language>java</language>
+          <body>if (isInputValid()) {&#xD;
+         persona.setNombre(NombreField.getText());&#xD;
+         persona.setApellido(ApellidoField.getText());&#xD;
+         persona.setTelefono(TelefonoField.getText());&#xD;
+&#xD;
+         okClicked = true;&#xD;
+         ventanaDos.close();&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c8156kXmEee3a7VBoiXGOA" name="handleCancel" specification="_c5j8VUXmEee3a7VBoiXGOA">
+          <language>java</language>
+          <body>ventanaDos.close();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c8_DwEXmEee3a7VBoiXGOA" name="isInputValid" specification="_c5j8WUXmEee3a7VBoiXGOA">
+          <ownedParameter xmi:id="_c8_DwUXmEee3a7VBoiXGOA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String errorMessage = &quot;&quot;;&#xD;
+&#xD;
+     if (NombreField.getText() == null || NombreField.getText().length() == 0) {&#xD;
+         errorMessage += &quot;Nombre no válido!\n&quot;;&#xD;
+     }&#xD;
+     if (ApellidoField.getText() == null || ApellidoField.getText().length() == 0) {&#xD;
+         errorMessage += &quot;Apellido no válido!\n&quot;;&#xD;
+     }&#xD;
+     if (TelefonoField.getText() == null || TelefonoField.getText().length() != 9) {&#xD;
+         errorMessage += &quot;Teléfono no válido!\n&quot;;&#xD;
+     }else {&#xD;
+         // try to parse the postal code into an int.&#xD;
+         try {&#xD;
+             Integer.parseInt(TelefonoField.getText());&#xD;
+         } catch (NumberFormatException e) {&#xD;
+             errorMessage += &quot;Teléfono no válido!\n&quot;;&#xD;
+         }&#xD;
+     }&#xD;
+&#xD;
+&#xD;
+     if (errorMessage.length() == 0) {&#xD;
+         return true;&#xD;
+     } else {&#xD;
+         Alert alert = new Alert(AlertType.ERROR);&#xD;
+         alert.setTitle(&quot;Error&quot;);&#xD;
+         alert.setHeaderText(&quot;Campos incorrectos!!&quot;);&#xD;
+         alert.setContentText(&quot;Por favor, corrija campos incorrectos&quot;);&#xD;
+&#xD;
+         alert.showAndWait();&#xD;
+         return false;&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_c5aLWEXmEee3a7VBoiXGOA" name="initialize" visibility="private"/>
+        <ownedOperation xmi:id="_c5j8UUXmEee3a7VBoiXGOA" name="handleOk" visibility="private" method="_c8156UXmEee3a7VBoiXGOA"/>
+        <ownedOperation xmi:id="_c5j8VUXmEee3a7VBoiXGOA" name="handleCancel" visibility="private" method="_c8156kXmEee3a7VBoiXGOA"/>
+        <ownedOperation xmi:id="_c5j8WUXmEee3a7VBoiXGOA" name="isInputValid" visibility="private" method="_c8_DwEXmEee3a7VBoiXGOA">
+          <ownedComment xmi:id="_c8_DzkXmEee3a7VBoiXGOA">
+            <body>Validates the user input in the text fields.&#xD;
+     *&#xD;
+     * @return true if the input is valid</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_c5j8WkXmEee3a7VBoiXGOA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_c7pnB0XmEee3a7VBoiXGOA" name="setPerson" method="_c81550XmEee3a7VBoiXGOA">
+          <ownedComment xmi:id="_c8_DzUXmEee3a7VBoiXGOA">
+            <body>Sets the person to be edited in the dialog.&#xD;
+     *&#xD;
+     * @param person</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_c7pnCEXmEee3a7VBoiXGOA" name="persona" type="_c5RBZEXmEee3a7VBoiXGOA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_c8GS9kXmEee3a7VBoiXGOA" name="setVentanaDialoge" method="_c8155UXmEee3a7VBoiXGOA">
+          <ownedComment xmi:id="_c8_DzEXmEee3a7VBoiXGOA">
+            <body>Establece el Stage de esta ventana para poder cerrarla&#xD;
+     *&#xD;
+     * @param ventanaDos</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_c8GS90XmEee3a7VBoiXGOA" name="ventanaDos" type="_c7WsG0XmEee3a7VBoiXGOA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_c5ttUEXmEee3a7VBoiXGOA" name="PersonaController">
+        <ownedAttribute xmi:id="_c8ZN8UXmEee3a7VBoiXGOA" name="Tabla" visibility="private" type="_c7yw8kXmEee3a7VBoiXGOA" association="_c9Sl0EXmEee3a7VBoiXGOA"/>
+        <ownedAttribute xmi:id="_c8ZN9kXmEee3a7VBoiXGOA" name="ColName" visibility="private" type="_c7yw8EXmEee3a7VBoiXGOA" association="_c9Sl00XmEee3a7VBoiXGOA"/>
+        <ownedAttribute xmi:id="_c8i-5EXmEee3a7VBoiXGOA" name="ColApellido" visibility="private" type="_c7yw8EXmEee3a7VBoiXGOA" association="_c9Sl1kXmEee3a7VBoiXGOA"/>
+        <ownedAttribute xmi:id="_c8i-6UXmEee3a7VBoiXGOA" name="ColTelefono" visibility="private" type="_c7yw8EXmEee3a7VBoiXGOA" association="_c9Sl2UXmEee3a7VBoiXGOA"/>
+        <ownedAttribute xmi:id="_c8i-7kXmEee3a7VBoiXGOA" name="Nuevo" visibility="private" type="_c7yw9EXmEee3a7VBoiXGOA" association="_c9bvsUXmEee3a7VBoiXGOA"/>
+        <ownedAttribute xmi:id="_c8i-8kXmEee3a7VBoiXGOA" name="Editar" visibility="private" type="_c7yw9EXmEee3a7VBoiXGOA" association="_c9bvtEXmEee3a7VBoiXGOA"/>
+        <ownedAttribute xmi:id="_c8sI0kXmEee3a7VBoiXGOA" name="Borrar" visibility="private" type="_c7yw9EXmEee3a7VBoiXGOA" association="_c9bvt0XmEee3a7VBoiXGOA"/>
+        <ownedAttribute xmi:id="_c8sI1kXmEee3a7VBoiXGOA" name="mainApp" visibility="private" type="_c5HQZEXmEee3a7VBoiXGOA" association="_c9bvukXmEee3a7VBoiXGOA"/>
+        <ownedAttribute xmi:id="_c8sI2EXmEee3a7VBoiXGOA" name="personData" visibility="private" type="_c4-GcEXmEee3a7VBoiXGOA" association="_c9bvvUXmEee3a7VBoiXGOA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c8_DwkXmEee3a7VBoiXGOA" name="setMainApp" specification="_c78h8EXmEee3a7VBoiXGOA">
+          <ownedParameter xmi:id="_c8_Dw0XmEee3a7VBoiXGOA" name="personData" type="_c4-GcEXmEee3a7VBoiXGOA"/>
+          <ownedParameter xmi:id="_c8_DxEXmEee3a7VBoiXGOA" name="mainApp" type="_c5HQZEXmEee3a7VBoiXGOA"/>
+          <language>java</language>
+          <body>this.personData = personData;&#xD;
+     this.mainApp = mainApp;&#xD;
+&#xD;
+  // Add observable list data to the table&#xD;
+  		System.out.println(&quot;initialize&quot;);&#xD;
+          Tabla.setItems(this.personData.getPersonData());&#xD;
+          ColName.setCellValueFactory(new PropertyValueFactory&lt;Persona,String>(&quot;nombre&quot;));&#xD;
+  		ColApellido.setCellValueFactory(new PropertyValueFactory&lt;Persona,String>(&quot;apellido&quot;));&#xD;
+  		ColTelefono.setCellValueFactory(new PropertyValueFactory&lt;Persona,String>(&quot;telefono&quot;));&#xD;
+&#xD;
+&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c8_DxUXmEee3a7VBoiXGOA" name="handleDeletePerson" specification="_c5ttU0XmEee3a7VBoiXGOA">
+          <language>java</language>
+          <body>int selectedIndex = Tabla.getSelectionModel().getSelectedIndex();&#xD;
+     if (selectedIndex >= 0) {&#xD;
+     	this.personData.getPersonData().remove(selectedIndex);&#xD;
+     	Tabla.setItems((ObservableList&lt;Persona>) this.personData);&#xD;
+&#xD;
+     } else {&#xD;
+         // Nothing selected.&#xD;
+     	Alert alert = new Alert(AlertType.WARNING);&#xD;
+     	ShowAlertNoSelectionPerson(alert);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c8_DxkXmEee3a7VBoiXGOA" name="handleNewPerson" specification="_c523Q0XmEee3a7VBoiXGOA">
+          <language>java</language>
+          <body>mainApp.NewPerson();&#xD;
+     Tabla.setItems(this.personData.getPersonData());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c8_Dx0XmEee3a7VBoiXGOA" name="handleEditPerson" specification="_c523R0XmEee3a7VBoiXGOA">
+          <language>java</language>
+          <body>Persona selectedPerson = Tabla.getSelectionModel().getSelectedItem();&#xD;
+     if (selectedPerson != null) {&#xD;
+     	int iIndex = Tabla.getSelectionModel().getSelectedIndex();&#xD;
+         mainApp.EditPerson(selectedPerson, iIndex);&#xD;
+         Tabla.setItems(this.personData.getPersonData());&#xD;
+     }&#xD;
+     else&#xD;
+     {&#xD;
+     	// Nothing selected.&#xD;
+     	Alert alert = new Alert(AlertType.ERROR);&#xD;
+     	ShowAlertNoSelectionPerson(alert);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c8_DyEXmEee3a7VBoiXGOA" name="ShowAlertNoSelectionPerson" specification="_c8GS-EXmEee3a7VBoiXGOA">
+          <ownedParameter xmi:id="_c8_DyUXmEee3a7VBoiXGOA" name="alert" type="_c7pnAUXmEee3a7VBoiXGOA"/>
+          <language>java</language>
+          <body>alert.setTitle(&quot;No Seleccionado&quot;);&#xD;
+     alert.setHeaderText(&quot;Persona no seleccionada&quot;);&#xD;
+     alert.setContentText(&quot;Por favor!!! Seleccione una persona de la tabla&quot;);&#xD;
+&#xD;
+     alert.showAndWait();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_c5ttUUXmEee3a7VBoiXGOA" name="initialize"/>
+        <ownedOperation xmi:id="_c5ttU0XmEee3a7VBoiXGOA" name="handleDeletePerson" visibility="private" method="_c8_DxUXmEee3a7VBoiXGOA"/>
+        <ownedOperation xmi:id="_c523Q0XmEee3a7VBoiXGOA" name="handleNewPerson" visibility="private" method="_c8_DxkXmEee3a7VBoiXGOA"/>
+        <ownedOperation xmi:id="_c523R0XmEee3a7VBoiXGOA" name="handleEditPerson" visibility="private" method="_c8_Dx0XmEee3a7VBoiXGOA"/>
+        <ownedOperation xmi:id="_c78h8EXmEee3a7VBoiXGOA" name="setMainApp" method="_c8_DwkXmEee3a7VBoiXGOA">
+          <ownedComment xmi:id="_c8_Dz0XmEee3a7VBoiXGOA">
+            <body>Is called by the main application to give a reference back to itself.&#xD;
+     *&#xD;
+     * @param mainApp</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_c78h8UXmEee3a7VBoiXGOA" name="personData" type="_c4-GcEXmEee3a7VBoiXGOA"/>
+          <ownedParameter xmi:id="_c78h8kXmEee3a7VBoiXGOA" name="mainApp" type="_c5HQZEXmEee3a7VBoiXGOA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_c8GS-EXmEee3a7VBoiXGOA" name="ShowAlertNoSelectionPerson" visibility="private" method="_c8_DyEXmEee3a7VBoiXGOA">
+          <ownedParameter xmi:id="_c8Pc4EXmEee3a7VBoiXGOA" name="alert" type="_c7pnAUXmEee3a7VBoiXGOA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9SlwUXmEee3a7VBoiXGOA" name="" memberEnd="_c9SlwkXmEee3a7VBoiXGOA _c8Pc7UXmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9SlwkXmEee3a7VBoiXGOA" name="" type="_c5aLV0XmEee3a7VBoiXGOA" association="_c9SlwUXmEee3a7VBoiXGOA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9SlxEXmEee3a7VBoiXGOA" name="" memberEnd="_c9SlxUXmEee3a7VBoiXGOA _c8ZN40XmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9SlxUXmEee3a7VBoiXGOA" name="" type="_c5aLV0XmEee3a7VBoiXGOA" association="_c9SlxEXmEee3a7VBoiXGOA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9Slx0XmEee3a7VBoiXGOA" name="" memberEnd="_c9SlyEXmEee3a7VBoiXGOA _c8ZN50XmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9SlyEXmEee3a7VBoiXGOA" name="" type="_c5aLV0XmEee3a7VBoiXGOA" association="_c9Slx0XmEee3a7VBoiXGOA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9SlykXmEee3a7VBoiXGOA" name="" memberEnd="_c9Sly0XmEee3a7VBoiXGOA _c8ZN60XmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9Sly0XmEee3a7VBoiXGOA" name="" type="_c5aLV0XmEee3a7VBoiXGOA" association="_c9SlykXmEee3a7VBoiXGOA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9SlzUXmEee3a7VBoiXGOA" name="" memberEnd="_c9SlzkXmEee3a7VBoiXGOA _c8ZN7UXmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9SlzkXmEee3a7VBoiXGOA" name="" type="_c5aLV0XmEee3a7VBoiXGOA" association="_c9SlzUXmEee3a7VBoiXGOA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9Sl0EXmEee3a7VBoiXGOA" name="" memberEnd="_c9Sl0UXmEee3a7VBoiXGOA _c8ZN8UXmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9Sl0UXmEee3a7VBoiXGOA" name="" type="_c5ttUEXmEee3a7VBoiXGOA" association="_c9Sl0EXmEee3a7VBoiXGOA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9Sl00XmEee3a7VBoiXGOA" name="" memberEnd="_c9Sl1EXmEee3a7VBoiXGOA _c8ZN9kXmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9Sl1EXmEee3a7VBoiXGOA" name="" type="_c5ttUEXmEee3a7VBoiXGOA" association="_c9Sl00XmEee3a7VBoiXGOA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9Sl1kXmEee3a7VBoiXGOA" name="" memberEnd="_c9Sl10XmEee3a7VBoiXGOA _c8i-5EXmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9Sl10XmEee3a7VBoiXGOA" name="" type="_c5ttUEXmEee3a7VBoiXGOA" association="_c9Sl1kXmEee3a7VBoiXGOA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9Sl2UXmEee3a7VBoiXGOA" name="" memberEnd="_c9Sl2kXmEee3a7VBoiXGOA _c8i-6UXmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9Sl2kXmEee3a7VBoiXGOA" name="" type="_c5ttUEXmEee3a7VBoiXGOA" association="_c9Sl2UXmEee3a7VBoiXGOA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9bvsUXmEee3a7VBoiXGOA" name="" memberEnd="_c9bvskXmEee3a7VBoiXGOA _c8i-7kXmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9bvskXmEee3a7VBoiXGOA" name="" type="_c5ttUEXmEee3a7VBoiXGOA" association="_c9bvsUXmEee3a7VBoiXGOA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9bvtEXmEee3a7VBoiXGOA" name="" memberEnd="_c9bvtUXmEee3a7VBoiXGOA _c8i-8kXmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9bvtUXmEee3a7VBoiXGOA" name="" type="_c5ttUEXmEee3a7VBoiXGOA" association="_c9bvtEXmEee3a7VBoiXGOA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9bvt0XmEee3a7VBoiXGOA" name="" memberEnd="_c9bvuEXmEee3a7VBoiXGOA _c8sI0kXmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9bvuEXmEee3a7VBoiXGOA" name="" type="_c5ttUEXmEee3a7VBoiXGOA" association="_c9bvt0XmEee3a7VBoiXGOA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9bvukXmEee3a7VBoiXGOA" name="" memberEnd="_c9bvu0XmEee3a7VBoiXGOA _c8sI1kXmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9bvu0XmEee3a7VBoiXGOA" name="" type="_c5ttUEXmEee3a7VBoiXGOA" association="_c9bvukXmEee3a7VBoiXGOA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9bvvUXmEee3a7VBoiXGOA" name="" memberEnd="_c9bvvkXmEee3a7VBoiXGOA _c8sI2EXmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9bvvkXmEee3a7VBoiXGOA" name="" type="_c5ttUEXmEee3a7VBoiXGOA" association="_c9bvvUXmEee3a7VBoiXGOA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_c4N4gEXmEee3a7VBoiXGOA" name="application">
+      <packagedElement xmi:type="uml:Class" xmi:id="_c5HQZEXmEee3a7VBoiXGOA" name="Main">
+        <generalization xmi:id="_c8GS9UXmEee3a7VBoiXGOA" general="_c7WsFUXmEee3a7VBoiXGOA"/>
+        <ownedAttribute xmi:id="_c8Pc5EXmEee3a7VBoiXGOA" name="primaryStage" visibility="private" type="_c7WsG0XmEee3a7VBoiXGOA" association="_c9I0w0XmEee3a7VBoiXGOA"/>
+        <ownedAttribute xmi:id="_c8Pc5kXmEee3a7VBoiXGOA" name="rootLayout" visibility="private" type="_c7f2A0XmEee3a7VBoiXGOA" association="_c9I0xkXmEee3a7VBoiXGOA"/>
+        <ownedAttribute xmi:id="_c8Pc6EXmEee3a7VBoiXGOA" name="personData" visibility="private" isStatic="true" type="_c4-GcEXmEee3a7VBoiXGOA" association="_c9I0yUXmEee3a7VBoiXGOA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c8151EXmEee3a7VBoiXGOA" name="start" specification="_c8GS8EXmEee3a7VBoiXGOA">
+          <ownedParameter xmi:id="_c8151UXmEee3a7VBoiXGOA" name="primaryStage" type="_c7WsG0XmEee3a7VBoiXGOA"/>
+          <language>java</language>
+          <body>try {&#xD;
+			this.primaryStage = primaryStage;&#xD;
+&#xD;
+			 // Load root layout from fxml file.&#xD;
+         FXMLLoader loader = new FXMLLoader();&#xD;
+         loader.setLocation(Main.class.getResource(&quot;../vista/AgendaUI.fxml&quot;));&#xD;
+         rootLayout = (AnchorPane) loader.load();&#xD;
+&#xD;
+      // Give the controller access to the main app.&#xD;
+         PersonaController controller = loader.getController();&#xD;
+         controller.setMainApp(personData, this);&#xD;
+&#xD;
+         // Show the scene containing the root layout.&#xD;
+         Scene scene = new Scene(rootLayout);&#xD;
+         primaryStage.setScene(scene);&#xD;
+         primaryStage.setTitle(&quot;Agenda&quot;);&#xD;
+         primaryStage.show();&#xD;
+&#xD;
+        } catch(Exception e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c8151kXmEee3a7VBoiXGOA" name="main" specification="_c5RBYEXmEee3a7VBoiXGOA">
+          <ownedParameter xmi:id="_c81510XmEee3a7VBoiXGOA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c8152EXmEee3a7VBoiXGOA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>/* Crea el objeto con el modelo de datos (como si hiciera un acceso a una bbdd o&#xD;
+		 * fichero) este objeto es el que luego se enviará a la Vista&#xD;
+		 */&#xD;
+		personData = new DatosPersona();&#xD;
+		launch(args);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c8152UXmEee3a7VBoiXGOA" name="showPersonEditDialog" specification="_c7f2BUXmEee3a7VBoiXGOA">
+          <ownedParameter xmi:id="_c8152kXmEee3a7VBoiXGOA" name="person" type="_c5RBZEXmEee3a7VBoiXGOA"/>
+          <ownedParameter xmi:id="_c81520XmEee3a7VBoiXGOA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>try {&#xD;
+         // Load the fxml file and create a new stage for the popup dialog.&#xD;
+         FXMLLoader loader = new FXMLLoader();&#xD;
+         loader.setLocation(Main.class.getResource(&quot;../vista/PersonEditDialog.fxml&quot;));&#xD;
+         AnchorPane page = (AnchorPane) loader.load();&#xD;
+&#xD;
+         // Create the dialog Stage.&#xD;
+         Stage dialogStage = new Stage();&#xD;
+         dialogStage.setTitle(&quot;Contacto&quot;);&#xD;
+         dialogStage.initModality(Modality.WINDOW_MODAL);&#xD;
+         dialogStage.initOwner(primaryStage);&#xD;
+         Scene scene = new Scene(page);&#xD;
+         dialogStage.setScene(scene);&#xD;
+&#xD;
+         // Set the person into the controller.&#xD;
+         PersonEditDialogController controller = loader.getController();&#xD;
+         controller.setVentanaDialoge(dialogStage);&#xD;
+         controller.setPerson(person);&#xD;
+&#xD;
+         // Show the dialog and wait until the user closes it&#xD;
+         dialogStage.showAndWait();&#xD;
+&#xD;
+         return controller.isOkClicked();&#xD;
+&#xD;
+     } catch (IOException e) {&#xD;
+         e.printStackTrace();&#xD;
+         return false;&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c8153EXmEee3a7VBoiXGOA" name="NewPerson" specification="_c5RBY0XmEee3a7VBoiXGOA">
+          <language>java</language>
+          <body>Persona personNew = new Persona(null, null, null);&#xD;
+ 	if(showPersonEditDialog(personNew))&#xD;
+ 		personData.addPerson(personNew);&#xD;
+&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c8153UXmEee3a7VBoiXGOA" name="EditPerson" specification="_c7f2CEXmEee3a7VBoiXGOA">
+          <ownedParameter xmi:id="_c8153kXmEee3a7VBoiXGOA" name="person" type="_c5RBZEXmEee3a7VBoiXGOA"/>
+          <ownedParameter xmi:id="_c81530XmEee3a7VBoiXGOA" name="iIndex">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (showPersonEditDialog(person)){&#xD;
+     	personData.getPersonData().set(iIndex,person);&#xD;
+     }&#xD;
+&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_c5RBYEXmEee3a7VBoiXGOA" name="main" isStatic="true" method="_c8151kXmEee3a7VBoiXGOA">
+          <ownedParameter xmi:id="_c5RBYUXmEee3a7VBoiXGOA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c5RBYkXmEee3a7VBoiXGOA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_c5RBY0XmEee3a7VBoiXGOA" name="NewPerson" method="_c8153EXmEee3a7VBoiXGOA"/>
+        <ownedOperation xmi:id="_c7f2BUXmEee3a7VBoiXGOA" name="showPersonEditDialog" method="_c8152UXmEee3a7VBoiXGOA">
+          <ownedComment xmi:id="_c8_DykXmEee3a7VBoiXGOA">
+            <body>Opens a dialog to edit details for the specified person. If the user&#xD;
+     * clicks OK, the changes are saved into the provided person object and true&#xD;
+     * is returned.&#xD;
+     *&#xD;
+     * @param person the person object to be edited&#xD;
+     * @return true if the user clicked OK, false otherwise.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_c7f2BkXmEee3a7VBoiXGOA" name="person" type="_c5RBZEXmEee3a7VBoiXGOA"/>
+          <ownedParameter xmi:id="_c7f2B0XmEee3a7VBoiXGOA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_c7f2CEXmEee3a7VBoiXGOA" name="EditPerson" method="_c8153UXmEee3a7VBoiXGOA">
+          <ownedParameter xmi:id="_c7f2CUXmEee3a7VBoiXGOA" name="person" type="_c5RBZEXmEee3a7VBoiXGOA"/>
+          <ownedParameter xmi:id="_c7f2CkXmEee3a7VBoiXGOA" name="iIndex">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_c8GS8EXmEee3a7VBoiXGOA" name="start" method="_c8151EXmEee3a7VBoiXGOA">
+          <ownedParameter xmi:id="_c8GS8UXmEee3a7VBoiXGOA" name="primaryStage" type="_c7WsG0XmEee3a7VBoiXGOA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9I0w0XmEee3a7VBoiXGOA" name="" memberEnd="_c9I0xEXmEee3a7VBoiXGOA _c8Pc5EXmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9I0xEXmEee3a7VBoiXGOA" name="" type="_c5HQZEXmEee3a7VBoiXGOA" association="_c9I0w0XmEee3a7VBoiXGOA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9I0xkXmEee3a7VBoiXGOA" name="" memberEnd="_c9I0x0XmEee3a7VBoiXGOA _c8Pc5kXmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9I0x0XmEee3a7VBoiXGOA" name="" type="_c5HQZEXmEee3a7VBoiXGOA" association="_c9I0xkXmEee3a7VBoiXGOA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c9I0yUXmEee3a7VBoiXGOA" name="" memberEnd="_c9I0ykXmEee3a7VBoiXGOA _c8Pc6EXmEee3a7VBoiXGOA">
+        <ownedEnd xmi:id="_c9I0ykXmEee3a7VBoiXGOA" name="" type="_c5HQZEXmEee3a7VBoiXGOA" association="_c9I0yUXmEee3a7VBoiXGOA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_cSII40XmEee3a7VBoiXGOA">
+      <eAnnotations xmi:id="_cSRS0EXmEee3a7VBoiXGOA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_cSRS0UXmEee3a7VBoiXGOA" base_Package="_cDIDkEXmEee3a7VBoiXGOA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c5aLWUXmEee3a7VBoiXGOA" base_Element="_c5aLWEXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Annotations xmi:id="_c5aLWkXmEee3a7VBoiXGOA" base_Element="_c5aLWEXmEee3a7VBoiXGOA">
+    <annotations xmi:id="_c5j8UEXmEee3a7VBoiXGOA" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c5j8UkXmEee3a7VBoiXGOA" base_Element="_c5j8UUXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Annotations xmi:id="_c5j8U0XmEee3a7VBoiXGOA" base_Element="_c5j8UUXmEee3a7VBoiXGOA">
+    <annotations xmi:id="_c5j8VEXmEee3a7VBoiXGOA" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c5j8VkXmEee3a7VBoiXGOA" base_Element="_c5j8VUXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Annotations xmi:id="_c5j8V0XmEee3a7VBoiXGOA" base_Element="_c5j8VUXmEee3a7VBoiXGOA">
+    <annotations xmi:id="_c5j8WEXmEee3a7VBoiXGOA" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c5ttUkXmEee3a7VBoiXGOA" base_Element="_c5ttUUXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c523QEXmEee3a7VBoiXGOA" base_Element="_c5ttU0XmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Annotations xmi:id="_c523QUXmEee3a7VBoiXGOA" base_Element="_c5ttU0XmEee3a7VBoiXGOA">
+    <annotations xmi:id="_c523QkXmEee3a7VBoiXGOA" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c523REXmEee3a7VBoiXGOA" base_Element="_c523Q0XmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Annotations xmi:id="_c523RUXmEee3a7VBoiXGOA" base_Element="_c523Q0XmEee3a7VBoiXGOA">
+    <annotations xmi:id="_c523RkXmEee3a7VBoiXGOA" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c523SEXmEee3a7VBoiXGOA" base_Element="_c523R0XmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Annotations xmi:id="_c523SUXmEee3a7VBoiXGOA" base_Element="_c523R0XmEee3a7VBoiXGOA">
+    <annotations xmi:id="_c523SkXmEee3a7VBoiXGOA" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_c7M7EUXmEee3a7VBoiXGOA" base_Element="_c7M7EEXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c7WsEEXmEee3a7VBoiXGOA" base_Element="_c7M7EkXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c7WsFEXmEee3a7VBoiXGOA" base_Element="_c7WsE0XmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c7WsFkXmEee3a7VBoiXGOA" base_Element="_c7WsFUXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c7WsGEXmEee3a7VBoiXGOA" base_Element="_c7WsF0XmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c7WsGkXmEee3a7VBoiXGOA" base_Element="_c7WsGUXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c7f2AEXmEee3a7VBoiXGOA" base_Element="_c7WsG0XmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c7f2AkXmEee3a7VBoiXGOA" base_Element="_c7f2AUXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c7f2BEXmEee3a7VBoiXGOA" base_Element="_c7f2A0XmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c7pnAEXmEee3a7VBoiXGOA" base_Element="_c7f2C0XmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c7pnAkXmEee3a7VBoiXGOA" base_Element="_c7pnAUXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c7pnBEXmEee3a7VBoiXGOA" base_Element="_c7pnA0XmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c7pnBkXmEee3a7VBoiXGOA" base_Element="_c7pnBUXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c7yw8UXmEee3a7VBoiXGOA" base_Element="_c7yw8EXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c7yw80XmEee3a7VBoiXGOA" base_Element="_c7yw8kXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c7yw9UXmEee3a7VBoiXGOA" base_Element="_c7yw9EXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c7yw90XmEee3a7VBoiXGOA" base_Element="_c7yw9kXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8GS8kXmEee3a7VBoiXGOA" base_Element="_c8GS8EXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Annotations xmi:id="_c8GS80XmEee3a7VBoiXGOA" base_Element="_c8GS8EXmEee3a7VBoiXGOA">
+    <annotations xmi:id="_c8GS9EXmEee3a7VBoiXGOA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_c8Pc4kXmEee3a7VBoiXGOA" genericsValue="Persona" base_Element="_c8Pc4UXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8Pc5UXmEee3a7VBoiXGOA" base_Element="_c8Pc5EXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8Pc50XmEee3a7VBoiXGOA" base_Element="_c8Pc5kXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8Pc6UXmEee3a7VBoiXGOA" base_Element="_c8Pc6EXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8ZN4EXmEee3a7VBoiXGOA" base_Element="_c8Pc7UXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Annotations xmi:id="_c8ZN4UXmEee3a7VBoiXGOA" base_Element="_c8Pc7UXmEee3a7VBoiXGOA">
+    <annotations xmi:id="_c8ZN4kXmEee3a7VBoiXGOA" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8ZN5EXmEee3a7VBoiXGOA" base_Element="_c8ZN40XmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Annotations xmi:id="_c8ZN5UXmEee3a7VBoiXGOA" base_Element="_c8ZN40XmEee3a7VBoiXGOA">
+    <annotations xmi:id="_c8ZN5kXmEee3a7VBoiXGOA" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8ZN6EXmEee3a7VBoiXGOA" base_Element="_c8ZN50XmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Annotations xmi:id="_c8ZN6UXmEee3a7VBoiXGOA" base_Element="_c8ZN50XmEee3a7VBoiXGOA">
+    <annotations xmi:id="_c8ZN6kXmEee3a7VBoiXGOA" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8ZN7EXmEee3a7VBoiXGOA" base_Element="_c8ZN60XmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8ZN7kXmEee3a7VBoiXGOA" base_Element="_c8ZN7UXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Generics xmi:id="_c8ZN8kXmEee3a7VBoiXGOA" genericsValue="Persona" base_Element="_c8ZN8UXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8ZN80XmEee3a7VBoiXGOA" base_Element="_c8ZN8UXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Annotations xmi:id="_c8ZN9EXmEee3a7VBoiXGOA" base_Element="_c8ZN8UXmEee3a7VBoiXGOA">
+    <annotations xmi:id="_c8ZN9UXmEee3a7VBoiXGOA" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_c8i-4EXmEee3a7VBoiXGOA" genericsValue="Persona,String" base_Element="_c8ZN9kXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8i-4UXmEee3a7VBoiXGOA" base_Element="_c8ZN9kXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Annotations xmi:id="_c8i-4kXmEee3a7VBoiXGOA" base_Element="_c8ZN9kXmEee3a7VBoiXGOA">
+    <annotations xmi:id="_c8i-40XmEee3a7VBoiXGOA" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_c8i-5UXmEee3a7VBoiXGOA" genericsValue="Persona,String" base_Element="_c8i-5EXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8i-5kXmEee3a7VBoiXGOA" base_Element="_c8i-5EXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Annotations xmi:id="_c8i-50XmEee3a7VBoiXGOA" base_Element="_c8i-5EXmEee3a7VBoiXGOA">
+    <annotations xmi:id="_c8i-6EXmEee3a7VBoiXGOA" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_c8i-6kXmEee3a7VBoiXGOA" genericsValue="Persona,String" base_Element="_c8i-6UXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8i-60XmEee3a7VBoiXGOA" base_Element="_c8i-6UXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Annotations xmi:id="_c8i-7EXmEee3a7VBoiXGOA" base_Element="_c8i-6UXmEee3a7VBoiXGOA">
+    <annotations xmi:id="_c8i-7UXmEee3a7VBoiXGOA" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8i-70XmEee3a7VBoiXGOA" base_Element="_c8i-7kXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Annotations xmi:id="_c8i-8EXmEee3a7VBoiXGOA" base_Element="_c8i-7kXmEee3a7VBoiXGOA">
+    <annotations xmi:id="_c8i-8UXmEee3a7VBoiXGOA" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8i-80XmEee3a7VBoiXGOA" base_Element="_c8i-8kXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Annotations xmi:id="_c8sI0EXmEee3a7VBoiXGOA" base_Element="_c8i-8kXmEee3a7VBoiXGOA">
+    <annotations xmi:id="_c8sI0UXmEee3a7VBoiXGOA" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8sI00XmEee3a7VBoiXGOA" base_Element="_c8sI0kXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Annotations xmi:id="_c8sI1EXmEee3a7VBoiXGOA" base_Element="_c8sI0kXmEee3a7VBoiXGOA">
+    <annotations xmi:id="_c8sI1UXmEee3a7VBoiXGOA" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8sI10XmEee3a7VBoiXGOA" base_Element="_c8sI1kXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c8sI2UXmEee3a7VBoiXGOA" base_Element="_c8sI2EXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9I0wkXmEee3a7VBoiXGOA" base_Element="_c9I0wEXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9I0xUXmEee3a7VBoiXGOA" base_Element="_c9I0w0XmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9I0yEXmEee3a7VBoiXGOA" base_Element="_c9I0xkXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9SlwEXmEee3a7VBoiXGOA" base_Element="_c9I0yUXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9Slw0XmEee3a7VBoiXGOA" base_Element="_c9SlwUXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9SlxkXmEee3a7VBoiXGOA" base_Element="_c9SlxEXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9SlyUXmEee3a7VBoiXGOA" base_Element="_c9Slx0XmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9SlzEXmEee3a7VBoiXGOA" base_Element="_c9SlykXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9Slz0XmEee3a7VBoiXGOA" base_Element="_c9SlzUXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9Sl0kXmEee3a7VBoiXGOA" base_Element="_c9Sl0EXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9Sl1UXmEee3a7VBoiXGOA" base_Element="_c9Sl00XmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9Sl2EXmEee3a7VBoiXGOA" base_Element="_c9Sl1kXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9bvsEXmEee3a7VBoiXGOA" base_Element="_c9Sl2UXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9bvs0XmEee3a7VBoiXGOA" base_Element="_c9bvsUXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9bvtkXmEee3a7VBoiXGOA" base_Element="_c9bvtEXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9bvuUXmEee3a7VBoiXGOA" base_Element="_c9bvt0XmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9bvvEXmEee3a7VBoiXGOA" base_Element="_c9bvukXmEee3a7VBoiXGOA"/>
+  <UMLLabProfile:Reference xmi:id="_c9bvv0XmEee3a7VBoiXGOA" base_Element="_c9bvvUXmEee3a7VBoiXGOA"/>
+</xmi:XMI>
