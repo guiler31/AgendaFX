@@ -1,6 +1,8 @@
 package vista;
 
 
+import java.text.DecimalFormat;
+
 import Modelo.Persona;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -21,6 +23,21 @@ public class PersonEditDialogController {
     private TextField ApellidoField;
     @FXML
     private TextField TelefonoField;
+    @FXML
+    private TextField FOLA;
+    @FXML
+    private TextField SSII;
+    @FXML
+    private TextField PROG;
+    @FXML
+    private TextField LMSGI;
+    @FXML
+    private TextField ENDS;
+    @FXML
+    private TextField BBDD;
+    
+    
+    
 
     private Stage ventanaDos;
     private Persona persona;
@@ -42,7 +59,23 @@ public class PersonEditDialogController {
     public void setVentanaDialoge(Stage ventanaDos) {
         this.ventanaDos = ventanaDos;
     }
-
+    
+    public String calcMedia(){
+    	String media ="";
+    	Double fol = Double.parseDouble(FOLA.getText());
+    	Double si =Double.parseDouble(SSII.getText());
+    	Double pro =Double.parseDouble(PROG.getText());
+    	Double end =Double.parseDouble(ENDS.getText());
+    	Double bd =Double.parseDouble(BBDD.getText());
+    	Double lms =Double.parseDouble(LMSGI.getText());
+    	Double medi= (fol+si+pro+end+bd+lms)/6;
+    	
+    	DecimalFormat oneDigit = new DecimalFormat("#.0");
+    	String mediUno = oneDigit.format(medi);
+    	
+    	media = String.valueOf(mediUno);
+		return media;
+    }
     /**
      * Sets the person to be edited in the dialog.
      *
@@ -54,6 +87,13 @@ public class PersonEditDialogController {
         NombreField.setText(persona.getNombre());
         ApellidoField.setText(persona.getApellido());
         TelefonoField.setText(persona.getTelefono());
+        SSII.setText(persona.getSsii());
+        FOLA.setText(persona.getFola());
+        PROG.setText(persona.getProg());
+        ENDS.setText(persona.getEnds());
+        BBDD.setText(persona.getBbdd());
+        LMSGI.setText(persona.getLmsgi());
+
     }
 
     /**
@@ -73,8 +113,16 @@ public class PersonEditDialogController {
     	if (isInputValid()) {
             persona.setNombre(NombreField.getText());
             persona.setApellido(ApellidoField.getText());
-            persona.setTelefono(TelefonoField.getText());
-
+            persona.setTelefono(calcMedia());
+            persona.setFola(FOLA.getText());
+            persona.setSsii(SSII.getText());
+            persona.setBbdd(BBDD.getText());
+            persona.setEnds(ENDS.getText());
+            persona.setLmsgi(LMSGI.getText());
+            persona.setProg(PROG.getText());
+            
+            
+            
             okClicked = true;
             ventanaDos.close();
         }
@@ -97,21 +145,30 @@ public class PersonEditDialogController {
         String errorMessage = "";
 
         if (NombreField.getText() == null || NombreField.getText().length() == 0) {
-            errorMessage += "Nombre no válido!\n";
+            errorMessage += "Nombre no vï¿½lido!\n";
         }
         if (ApellidoField.getText() == null || ApellidoField.getText().length() == 0) {
-            errorMessage += "Apellido no válido!\n";
+            errorMessage += "Apellido no vï¿½lido!\n";
         }
-        if (TelefonoField.getText() == null || TelefonoField.getText().length() != 9) {
-            errorMessage += "Teléfono no válido!\n";
-        }else {
-            // try to parse the postal code into an int.
-            try {
-                Integer.parseInt(TelefonoField.getText());
-            } catch (NumberFormatException e) {
-                errorMessage += "Teléfono no válido!\n";
-            }
+        if (FOLA.getText() == null || FOLA.getText().length() == 0 || Double.parseDouble(FOLA.getText())>10.0) {
+            errorMessage += "Nota no valida\n";
         }
+        if (SSII.getText() == null || SSII.getText().length() == 0 || Double.parseDouble(SSII.getText())>10.0) {
+            errorMessage += "Nota no valida\n";
+        }
+        if (PROG.getText() == null || PROG.getText().length() == 0 || Double.parseDouble(PROG.getText())>10.0) {
+            errorMessage += "Nota no valida\n";
+        }
+        if (BBDD.getText() == null || BBDD.getText().length() == 0 || Double.parseDouble(BBDD.getText())>10.0) {
+            errorMessage += "Nota no valida\n";
+        }
+        if (LMSGI.getText() == null || LMSGI.getText().length() == 0 || Double.parseDouble(LMSGI.getText())>10.0) {
+            errorMessage += "Nota no valida\n";
+        }
+        if (ENDS.getText() == null || ENDS.getText().length() == 0 || Double.parseDouble(ENDS.getText())>10.0) {
+            errorMessage += "Nota no valida\n";
+        }
+
 
 
         if (errorMessage.length() == 0) {
@@ -121,7 +178,6 @@ public class PersonEditDialogController {
             alert.setTitle("Error");
             alert.setHeaderText("Campos incorrectos!!");
             alert.setContentText("Por favor, corrija campos incorrectos");
-
             alert.showAndWait();
             return false;
         }

@@ -13,8 +13,7 @@ public class DatosPersona {
 	public DatosPersona() {
 
 		//Inits personData
-		this.personData.add(new Persona("David", "Perez", "600521521"));
-	    this.personData.add(new Persona("Pedro", "Camachor", "600521521"));
+	
 	}
 
 	/**

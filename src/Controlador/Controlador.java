@@ -37,9 +37,11 @@ public class Controlador {
 
             // Show the scene containing the root layout.
             Scene scene = new Scene(rootLayout);
+            scene.getStylesheets().add("application.css");
             primaryStage.setScene(scene);
             primaryStage.setTitle("Agenda");
             primaryStage.show();
+            
 
            } catch(Exception e) {
 			e.printStackTrace();
@@ -69,6 +71,8 @@ public class Controlador {
             dialogStage.initModality(Modality.WINDOW_MODAL);
             dialogStage.initOwner(primaryStage);
             Scene scene = new Scene(page);
+            scene.getStylesheets().add("application.css");
+
             dialogStage.setScene(scene);
 
             // Set the person into the controller.
@@ -87,21 +91,21 @@ public class Controlador {
         }
     }
 
-    /* este método se llama cuando se ha presionado el botón nuevo
-     * LLamará al método que abre la ventana de edición con un objeto Persona vacío
-     * Si devuelve OK, la añade al modelo*/
+    /* este mï¿½todo se llama cuando se ha presionado el botï¿½n nuevo
+     * LLamarï¿½ al mï¿½todo que abre la ventana de ediciï¿½n con un objeto Persona vacï¿½o
+     * Si devuelve OK, la aï¿½ade al modelo*/
 
     public void NewPerson(){
-    	Persona personNew = new Persona(null, null, null);
+    	Persona personNew = new Persona(null, null, null,null,null,null,null,null,null);
     	if(showPersonEditDialog(personNew))
     		this.personData.addPerson(personNew);
 
     }
 
-    /* este método se llama cuando se ha presionado el botón editar
-     * LLamará al método que abre la ventana de edición con un objeto Persona que es el
-     * seleccionado vacío
-     * Si devuelve OK, la añade al modelo set(iIndex, person)*/
+    /* este mï¿½todo se llama cuando se ha presionado el botï¿½n editar
+     * LLamarï¿½ al mï¿½todo que abre la ventana de ediciï¿½n con un objeto Persona que es el
+     * seleccionado vacï¿½o
+     * Si devuelve OK, la aï¿½ade al modelo set(iIndex, person)*/
     public void EditPerson(Persona person, int iIndex){
     	if (showPersonEditDialog(person)){
         	personData.getPersonData().set(iIndex,person);
